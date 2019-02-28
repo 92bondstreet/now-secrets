@@ -28,6 +28,7 @@ Efficient but could be redundant and painful to maintain 3 files (the `.env` fil
 
 ```sh
 ❯ now-secrets
+❯ now-secrets .env.production
 ```
 
 ## 📱 Features

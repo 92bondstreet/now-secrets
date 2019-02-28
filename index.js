@@ -3,9 +3,7 @@ const paramCase = require('param-case');
 const path = require('path');
 const loadJsonFile = require('load-json-file');
 const writeJsonFile = require('write-json-file');
-
-const NOW_SECRETS = 'now-secrets.json';
-const NOW_JSON = 'now.json';
+const {NOW_JSON, NOW_SECRETS} = require('./constants');
 
 /**
  * convert dotenv parsed object to secrets

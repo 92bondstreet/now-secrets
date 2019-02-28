@@ -12,7 +12,7 @@ async function sandbox () {
     await now.update(parsed);
 
     console.log('📁 now-secrets.json created');
-    console.log('💾 now.json updated updated');
+    console.log('💾 now.json updated');
   } catch (error) {
     console.error(error);
   }
