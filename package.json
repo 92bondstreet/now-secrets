@@ -1,0 +1,13 @@
+{
+  "name": "now-secrets",
+  "version": "0.0.1",
+  "description": "Generate secrets from .env file",
+  "main": "index.js",
+  "license": "uncopyrighted",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "load-json-file": "^5.2.0",
+    "param-case": "^2.1.1",
+    "write-json-file": "^3.1.0"
+  }
+}
